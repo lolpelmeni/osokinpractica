@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль | Всё у нас</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-links">
+                    <a href="">Доставка и оплата</a>
+                    <a href="">Поддержка</a>
+                    <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="container">
+
+                <div class="logo">
+                    <img src="../images/logo.png" alt="logo">
+                </div>
+
+                <form class="search-form">
+                    <input type="text" placeholder="Поиск">
+                    <button type="submit"><img src="../images/lypa.png" alt="lypa"></button>
+                </form>
+
+                <button class="burger-btn">
+                    <img src="../images/burger.png" alt="Меню">
+                </button>
+
+                <div class="header-actions">
+                    <a href="./profile.html"><img src="../images/profile.png" alt="profile"><span>Профиль</span></a>
+                    <a href="./favorites.html"><img src="../images/favorites.png" alt="favorites"><span>Избранное</span></a>
+                    <a href="./cart.html"><img src="../images/basket.png" alt="basket"><span>Корзина</span></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+
+            <button class="close-menu">✕</button>
+
+            <a href="#">Электротехника</a>
+            <a href="#">Одежда и обувь</a>
+            <a href="#">Товары для дома</a>
+            <a href="#">Детям и игрушки</a>
+            <a href="#">Красота и уход</a>
+            <a href="#">Спорт и отдых</a>
+            <a href="#">Зоотовары</a>
+            <a href="#">Книги и творчество</a>
+
+        </div>
+
+        <nav class="category-menu">
+            <div class="container">
+                <a href="./index.html">Электротехника</a>
+                <a href="">Одежда и обувь</a>
+                <a href="">Товары для дома</a>
+                <a href="">Детям и игрушки</a>
+                <a href="">Красота и уход</a>
+                <a href="">Спорт и отдых</a>
+                <a href="">Зоотовары</a>
+                <a href="">Книги и творчество</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="profile-page">
+        <div class="container">
+
+            <h1 class="profile-title">Личный кабинет</h1>
+
+            <div class="profile-card">
+
+                <div class="profile-avatar">
+                    <img src="../images/profile.png" alt="">
+                </div>
+
+                <div class="profile-info">
+
+                    <div class="profile-row">
+                        <span>Имя:</span>
+                        <strong>Иван Иванов</strong>
+                    </div>
+
+                    <div class="profile-row">
+                        <span>Email:</span>
+                        <strong>ivan@mail.ru</strong>
+                    </div>
+
+                    <div class="profile-row">
+                        <span>Телефон:</span>
+                        <strong>+7 (999) 999-99-99</strong>
+                    </div>
+
+                    <div class="profile-row">
+                        <span>Дата регистрации:</span>
+                        <strong>15.01.2026</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile-actions">
+
+                <a href="./favorites.html" class="profile-btn">
+                    Избранное
+                </a>
+
+                <a href="./cart.html" class="profile-btn">
+                    Корзина
+                </a>
+
+                <a href="./create-product.html"
+                class="profile-btn sell-btn">
+                    Разместить товар
+                </a>
+
+            </div>
+
+            <h2 class="my-products-title">
+                Мои объявления
+            </h2>
+
+            <div
+                class="my-products-grid"
+                id="my-products-container">
+
+            </div>
+
+            <div
+                class="empty-products"
+                id="empty-products">
+
+                У вас пока нет опубликованных товаров
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Покупателям</h3>
+
+                    <a href="#">Как сделать заказ</a>
+                    <a href="#">Способ оплаты</a>
+                    <a href="#">Доставка</a>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Продавцам</h3>
+
+                    <a href="#">Как начать продавать</a>
+                    <a href="#">Тарифы и комиссия</a>
+                    <a href="#">Продвижение товаров</a>
+                    <a href="#">Аналитика и отчёты</a>
+                    <a href="#">Вопросы и поддержка</a>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Компания</h3>
+
+                    <a href="#">О нас</a>
+                    <a href="#">Новости и акции</a>
+                    <a href="#">Блог</a>
+                    <a href="#">Вакансии</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Реквизиты</a>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Соцсети</h3>
+
+                    <a href="#" class="social-link">
+                        <img src="../images/ok.png" alt="">
+                        Одноклассники
+                    </a>
+
+                    <a href="#" class="social-link">
+                        <img src="../images/vk.png" alt="">
+                        ВКонтакте
+                    </a>
+
+                    <a href="#" class="social-link">
+                        <img src="../images/tg.png" alt="">
+                        Telegram
+                    </a>
+                </div>
+
+            </div>
+            <div class="footer-bottom">&copy;2026. Всё у нас. Все права защищены</div>
+        </div>
+    </footer>
+
+<script src="../js/profile.js"></script>
+<script src="../js/menu.js"></script>
+
+</body>
+</html>
